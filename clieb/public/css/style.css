@@ -1,0 +1,179 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.pop-out-card {
+  box-shadow: 2px 12px 15px #999;
+}
+
+.overlay {
+  background: linear-gradient(#040226, #040226);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+.formx {
+  display: flex;
+  width: auto;
+}
+.textarea {
+  resize: none;
+  width: 450px;
+  height: 30px;
+}
+
+.select {
+  width: 250px;
+}
+
+.option {
+  width: 550px;
+}
+.textarea-2 {
+  resize: none;
+  width: 450px;
+  height: 200px;
+}
+
+.center {
+  margin: auto;
+}
+.flex2 {
+  display: flex;
+  -content: space-around;
+  -color: green;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.profilepic {
+  position: relative;
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: gray;
+}
+
+.profilepic:hover .profilepic__content {
+  opacity: 1;
+}
+
+.profilepic:hover .profilepic__image {
+  opacity: 0.5;
+}
+
+.profilepic__image {
+  object-fit: cover;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.profilepic__content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.profilepic__icon {
+  color: white;
+  padding-bottom: 8px;
+}
+
+.fas {
+  font-size: 20px;
+}
+
+.profilepic__text {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.missing-profile {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+.text-display {
+  color: #404145;
+  font-family: Macan, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  overflow-wrap: break-word;
+  padding-bottom: 16px;
+}
+
+.section-title {
+  color: #404145;
+  font-family: Macan, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 25px;
+  overflow-wrap: break-word;
+  padding-bottom: 16px;
+}
+.description-content {
+  max-height: none;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  color: #62646a;
+  overflow: hidden;
+  word-break: break-word;
+  font: 400 16px/24px Macan, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.expand-image {
+  transition: transform 0.5s; /* smooth transition effect */
+}
+
+.expand-image:hover {
+  transform: scale(1.05); /* or any value greater than 1 to make it larger */
+}
+
+.gig-container {
+  border: 1px solid lightgray;
+  padding: 12px;
+}
+.disabled {
+  pointer-events: none;
+  color: gray;
+}
+.custom-text {
+  color: #ffa500;
+  font-size: 1.2rem;
+}
+.parent-container {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  align-items: center;
+}
+
+.key-info {
+  font-weight: bold;
+  color: #333333;
+}
+.home-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.no-underline {
+  text-decoration: none;
+}
