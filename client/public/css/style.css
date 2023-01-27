@@ -38,14 +38,14 @@
 .center {
   margin: auto;
 }
+body {
+  font-family: sans-serif;
+}
+
 .flex2 {
   display: flex;
   -content: space-around;
   -color: green;
-}
-
-body {
-  font-family: sans-serif;
 }
 
 .profilepic {
