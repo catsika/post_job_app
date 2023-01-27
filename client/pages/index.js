@@ -84,12 +84,12 @@ const Home = () => {
                     alt='job 3'
                   />
                   <p className='carousel-caption'>Job Title 3</p>
-                  <p className='carousel-caption'>Job  3</p>
+                  <p className='carousel-caption'>Jobc 3</p>
                 </div>
               </Carousel>
             </div>
           </div>
-         
+
         </div>
       </div>
     </div>
